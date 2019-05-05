@@ -46,7 +46,7 @@ connection.connect(function(err) {
 
 // Root get route
 app.get("/", function(req, res) {
-  connection.query("SELECT * FROM tasks;", function(err, data) {
+  connection.query("SELECT * FROM burger;", function(err, data) {
     if (err) throw err;
 
 
