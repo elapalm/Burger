@@ -1,4 +1,4 @@
-Inside the burgers_controller.js file, import the following:
+//Inside the burgers_controller.js file, import the following:
 // Run npm for Express
 var express = require('express');
 
